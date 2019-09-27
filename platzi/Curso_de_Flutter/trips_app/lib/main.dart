@@ -72,7 +72,13 @@ class _MyHomePageState extends State<MyHomePage> {
         Scaffold(
           backgroundColor: Colors.transparent, // <-- SCAFFOLD WITH TRANSPARENT BG
           body: Center(
-            child: Text("Wilmer", style: TextStyle(color: Colors.white, fontSize: 80.0, fontWeight: FontWeight.bold)),
+            child: Container(
+              width: double.infinity,
+              color: Colors.white.withOpacity(0.5),
+              child: Text("Wilmer",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(color: Colors.white, fontSize: 80.0, fontWeight: FontWeight.bold)),
+            )
           ),
         ),
       ],
