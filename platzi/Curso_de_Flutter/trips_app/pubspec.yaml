@@ -47,6 +47,7 @@ flutter:
 
   assets:
     - assets/images/spacex.png
+    - assets/images/people.jpg
 
   fonts:
     - family: Lato
