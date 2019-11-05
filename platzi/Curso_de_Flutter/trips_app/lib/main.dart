@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trips_app/killer_trips_cupertino.dart';
 import 'killer_trips.dart';
 
 void main() => runApp(MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: KillerTrips()
+        home: KillerTripsCupertino()
     );
   }
 }
