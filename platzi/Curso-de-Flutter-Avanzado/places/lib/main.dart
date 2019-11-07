@@ -1,8 +1,5 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'platzi_trips.dart';
-import 'platzi_trips_cupertino.dart';
+import 'package:places/trips_cupertino.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,8 +22,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
 
       ),
-      //home: PlatziTrips()
-      home: PlatziTripsCupertino(),
+      //home: Trips()
+      home: TripsCupertino(),
     );
   }
 }
