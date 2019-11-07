@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'Place/ui/screens/home_trips.dart';
-import 'Place/ui/screens/search_trips.dart';
-import 'User/ui/screens/profile_trips.dart';
+import 'package:places/Place/ui/screens/home_trips.dart';
+import 'package:places/Place/ui/screens/search_trips.dart';
+import 'package:places/User/ui/screens/profile_trips.dart';
 
-class PlatziTrips extends StatefulWidget {
+class Trips extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return _PlatziTrips();
+    return _Trips();
   }
 
 }
 
-class _PlatziTrips extends State<PlatziTrips> {
+class _Trips extends State<Trips> {
   int indexTap = 0;
   final List<Widget> widgetsChildren = [
     HomeTrips(),
