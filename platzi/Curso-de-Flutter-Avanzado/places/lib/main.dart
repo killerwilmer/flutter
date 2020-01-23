@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:places/User/model/bloc_user.dart';
+import 'package:places/User/bloc/bloc_user.dart';
 import 'package:places/trips_cupertino.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 
