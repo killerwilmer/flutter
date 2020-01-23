@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "744429186335",
+    "firebase_url": "https://tripsflutter-91064.firebaseio.com",
+    "project_id": "tripsflutter-91064",
+    "storage_bucket": "tripsflutter-91064.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744429186335:android:8acca8492f0e34f144942a",
+        "android_client_info": {
+          "package_name": "com.killerwilmer.places"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744429186335-l7496qe7qbdo91806tliolsj7njcr88h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.killerwilmer.places",
+            "certificate_hash": "e601c5653e333b96557d3c43adb3b7d6ca63578b"
+          }
+        },
+        {
+          "client_id": "744429186335-1snl1p9p1b17m5u2gskpdmsd4rt24fk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUUapVbQyuMhxZFZ70qWHvkVRJVxWSfBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744429186335-1snl1p9p1b17m5u2gskpdmsd4rt24fk2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
